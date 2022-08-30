@@ -220,7 +220,7 @@ main {
 }
 /*section-hero*/
 .section-hero {
-    background: url('/images/head-back-right.png') top right no-repeat, url('/images/head-back-left.jpg') top center no-repeat;
+    background: url('../images/head-back-right.png') top right no-repeat, url('../images/head-back-left.jpg') top center no-repeat;
     background-size: 756px, 2560px;
     padding-top: 30px;
 }
@@ -818,7 +818,7 @@ main {
     }
     /*section-hero*/
     .section-hero {
-        background: url('/images/head-back-right.png') top right no-repeat, url('/images/head-back-left-tablet.jpg') top left no-repeat;
+        background: url('../images/head-back-right.png') top right no-repeat, url('../images/head-back-left-tablet.jpg') top left no-repeat;
         background-size: 0,1066px;
     }
     .section-hero__header {
