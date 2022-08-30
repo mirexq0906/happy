@@ -1024,8 +1024,6 @@ main {
 }
 @media (max-width: 767px) {
     .container {
-        min-width: 360px;
-        margin: 0 auto;
         padding: 0 30px;
     }
     .accordion-item-heading {
