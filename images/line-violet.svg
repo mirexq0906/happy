@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="155" height="226" viewBox="0 0 155 226">
-    <defs>
-        <linearGradient id="blueGradient" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(45 0.5 0.5)">
-            <stop offset="0" stop-color="#ecacff" />
-            <stop offset="1" stop-color="#fcefff" />
-        </linearGradient>
-    </defs>
-    <path fill="url(#blueGradient)" d="M 155 0.2890625 L 15.140625 140.14844 A 50.005 50.005 0 1 0 85.851562 210.85938 L 155 141.71094 L 155 0.2890625 z" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="155" height="226"><defs><linearGradient id="a" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(45 .5 .5)"><stop offset="0" stop-color="#ecacff"/><stop offset="1" stop-color="#fcefff"/></linearGradient></defs><path fill="url(#a)" d="M155 .29L15.14 140.147a50.005 50.005 0 1070.712 70.711L155 141.711V.289z"/></svg>

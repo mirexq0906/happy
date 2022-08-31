@@ -1,13 +1,1 @@
-<svg width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M17.3382 13.3621H31.4599L29.4985 9.92542H19.2995L17.3382 13.3621Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M22.8306 14.7367L24.7919 18.1733H29.4991L31.4605 14.7367H22.8306Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9848 14.7367H0.863098L2.82444 18.1733H13.0234L14.9848 14.7367Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.53167 9.92554H2.82444L0.863098 13.3622H9.49301L7.53167 9.92554Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M24.007 8.55097L26.3607 4.4271L24.3993 0.990723L20.0844 8.55097H24.007Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1615 15.424L9.10065 27.7956H13.0233L18.1228 18.8606L16.1615 15.424Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M8.31632 19.5479L5.96271 23.6717L7.92405 27.1084L12.239 19.5479H8.31632Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9849 13.3621L7.92405 0.990479L5.96271 4.42713L11.0622 13.3621H14.9849Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M16.9464 23.6716L19.3 27.7955H23.2227L18.9078 20.235L16.9464 23.6716Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M17.3382 14.7367L24.399 27.1083L26.3604 23.6717L21.2609 14.7367H17.3382Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.2223 0.303223H19.2996L16.1615 5.80154L13.0233 0.303223H9.10065L16.1615 12.6748L23.2223 0.303223Z" fill="white"/>
-</svg>
+<svg width="32" height="28" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.338 13.362H31.46l-1.962-3.437H19.3l-1.96 3.437zM22.83 14.737l1.962 3.436h4.707l1.962-3.436h-8.63zM14.985 14.737H.863l1.961 3.436h10.2l1.96-3.436zM7.532 9.926H2.824l-1.96 3.436h8.629L7.532 9.926zM24.007 8.551l2.354-4.124L24.399.991l-4.315 7.56h3.923zM16.162 15.424L9.1 27.796h3.922l5.1-8.935-1.962-3.437zM8.316 19.548l-2.353 4.124 1.961 3.436 4.315-7.56H8.316zM14.985 13.362L7.925.99 5.962 4.427l5.1 8.935h3.922zM16.946 23.672l2.354 4.123h3.923l-4.315-7.56-1.962 3.437zM17.338 14.737L24.4 27.108l1.961-3.436-5.1-8.935h-3.922zM23.222.303H19.3L16.16 5.802 13.024.303H9.101l7.06 12.372L23.223.303z" fill="#fff"/></svg>
