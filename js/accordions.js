@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function(){
                     active.classList.remove('accordion-item-description-active')
                     active.style.height = 0 + 'px'
                 })
-                itemPlus.classList.remove('accordion-item-title-active')
+                document.querySelectorAll('.accordion-item-title').forEach(function(title) {
+                    title.classList.remove('accordion-item-title-active')
+                })
             } 
             else {
                 document.querySelectorAll('.accordion-item-description').forEach(function(active) {

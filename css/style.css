@@ -105,7 +105,7 @@ main {
     border-top: 1px solid rgba(0,0,0,.15);
 }
 .accordion-item {
-    padding: 25px 0;
+    /* padding: 25px 0; */
     border-bottom: 1px solid rgba(0,0,0,.15);
 }
 .accordion-item-title {
@@ -113,6 +113,7 @@ main {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    padding: 25px 0;
 }
 .accordion-item-heading {
     font-size: 24px;
@@ -139,7 +140,31 @@ main {
     transition: height 0.3s ease;
 }
 .accordion-item-content {
-    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.accordion-content-list{
+    padding-left: 40px;
+    list-style: disc;
+}
+.accordion-list-large {
+    margin-bottom: 20px;
+}
+.accordion-content-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.accordion-content-title {
+    font-weight: 500;
+    color: #272727;
+    line-height: 1.25;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.accordion-content-product {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.accordion-content-product:not(:last-child) {
+    margin-bottom: 20px;
 }
 /*effect accordion*/
 .accordion-item-heading {
@@ -148,7 +173,7 @@ main {
 .accordion-item-title svg path {
     transition: stroke 0.15s ease-in-out;  
 }
-.accordion-item-heading:hover,
+.accordion-item-title:hover .accordion-item-heading,
 .accordion-item-title:hover svg path {
     color: #005ca2;
     stroke: #005ca2;
@@ -253,6 +278,15 @@ main {
 }
 .section-hero__logo {
     margin-bottom: 25px;
+}
+.section-hero__logo-link {
+    display: inline-block;
+    width: 271px;
+    height: 50px;
+    text-indent: -999px;
+    background-image: url('../images/logo-sprite.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 .section-hero__subtitle {
     font-size: 20px;
@@ -368,7 +402,7 @@ main {
     display: none;
 }
 .section-feature__number {
-    background: url('../images/75-back.svg') no-repeat 5px 50px;
+    background: url('../images/75-back.svg') no-repeat 0/205px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -414,6 +448,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.section-feature__item-image {
+    border-radius: 12px;
 }
 /*section-moments*/
 .section-moments {
@@ -468,6 +505,7 @@ main {
     background-image: url('../images/label-up.svg'), url('../images/line-violet.svg');
 }
 .section-moments__item {
+    width: 100%;
     background-color: #fff;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.129917);
     border-radius: 17px;
@@ -602,7 +640,6 @@ main {
     display: grid;
     grid-template-columns: 782px 391px;
     grid-template-rows: 373px 373px;
-    /* grid-template-columns: 2fr 1fr; */
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     grid-auto-flow: column;
@@ -642,23 +679,23 @@ main {
     background-image: url('../images/50-back-left.svg'),url('../images/50-back-right.svg');
     background-repeat: no-repeat;
     background-position: top 20px left,right top;
-    background-size: 244px,cover;
+    background-size: 275px,100% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .section-success-irbis {
     background-image: url('../images/170-back.svg');
     background-repeat: no-repeat;
-    background-position: top 20px left 5px;
-    background-size: 200px;
+    background-position: top  left ;
+    background-size: 213px 94%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .section-success-forest {
     background-image: url('../images/30-back.svg');
     background-repeat: no-repeat;
-    background-position: top 20px left 5px;
-    background-size: 280px;
+    background-position: top left;
+    background-size: 288px 94%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -733,6 +770,11 @@ main {
     transform: none;
 }
 }
+@media (max-width: 1440px) {
+    .section-hero {
+        
+    }
+}
 @media (max-width: 1439px) {
 .container {
     padding: 0 50px;
@@ -799,6 +841,7 @@ main {
   }
 .section-success__item {
     flex-direction: column;
+    margin-right: 13px;
 }
 .section-success__item-content {
     width: 388px;

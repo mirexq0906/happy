@@ -2,6 +2,11 @@
         let listBlock = document.querySelector('.slider-list')
         let itemSlider = document.querySelectorAll('.slider-item')
         listBlock.style.height = itemSlider[0].scrollHeight + 'px'
+        let activeLists = document.querySelectorAll('.accordion-item-description-active')
+        activeLists.forEach(function(activeList) {
+            activeList.style.height = activeList.scrollHeight + 'px'
+        })
+        
     };
     document.addEventListener('DOMContentLoaded', function(){
         let itemSlider = document.querySelectorAll('.slider-item')
