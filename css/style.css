@@ -687,7 +687,7 @@ main {
     background-image: url('../images/170-back.svg');
     background-repeat: no-repeat;
     background-position: top  left ;
-    background-size: 213px 94%;
+    background-size: 213px 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -695,7 +695,7 @@ main {
     background-image: url('../images/30-back.svg');
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 288px 94%;
+    background-size: 288px 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
