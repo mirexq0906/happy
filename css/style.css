@@ -698,6 +698,7 @@ main {
     background-size: 288px 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-right: 20px;
 }
 /*section-join*/
 .section-join {
